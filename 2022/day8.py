@@ -5,6 +5,7 @@ def main():
         lines = file.readlines()
 
     matrix = [list(line.strip()) for line in lines]
+    print(matrix)
     last_column = len(matrix[0]) -1
     last_row = len(matrix) -1
     print(last_column, last_row)
